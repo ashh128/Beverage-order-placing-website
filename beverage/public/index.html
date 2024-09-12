@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beverages</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <h1><u>BRIAN'S BEVVIES</u></h1>
+    <h3><u>DRINK ORDER</u></h3>
+    <!-- size -->
+    <!-- type -->
+    <!-- s_base -->
+    <!-- m_base -->
+    <!-- extra -->
+    <!-- cost per drink -->
+    <!-- add to order -->
+    <!-- place the order -->
+    <!-- save my favourite -->
+    <!-- order my favourite -->
+
+    <!-- paragraph for output -->
+    
+    <p id="output"></p>
+        
+    
+
+    <!-- size -->
+    <fieldset>
+        <legend>Size</legend>
+        <p>
+            <input type="radio" id="small" name="size" value="small">
+            <label for="small">Small</label>
+        </p>
+        <p>
+            <input type="radio" id="medium" name="size" value="medium" checked>
+            <label for="medium">Medium</label>
+        </p>
+        <p>
+            <input type="radio" id="large" name="size" value="large">
+            <label for="large">Large</label>
+        </p>
+        <p>
+            <input type="radio" id="extra" name="size" value="extra">
+            <label for="extra">Extra Large</label>
+        </p>
+    </fieldset>
+
+    <!-- type -->
+    <fieldset>
+        <legend>Type</legend>
+        <p>
+            <input type="radio" id="smoothie" name="type" value="smoothie">
+            <label for="smoothie">Smoothie</label>
+        </p>
+        <p>
+            <input type="radio" id="milkshake" name="type" value="milkshake">
+            <label for="milkshake">Milkshake</label>
+        </p>
+    </fieldset>
+
+    <!-- s_bases -->
+
+    
+    <div id="s_base">
+        <legend><u>Smoothie Base</u></legend>
+        <p>
+            <input type="radio" id="apple juice" name="s_base" value="apple juice">
+            <label for="apple juice">Apple Juice</label>
+        </p>
+        <p>
+            <input type="radio" id="orange juice" name="s_base" value="orange juice" checked>
+            <label for="orange juice">Orange Juice</label>
+        </p>
+    
+    </div>
+    
+
+    <!-- m_bases -->
+
+    
+    <div id="m_base">
+        <legend><u>Milkshake Base</u></legend>
+        <p>
+            <input type="radio" id="whole milk" name="m_base" value="whole milk">
+            <label for="whole milk">whole milk</label>
+        </p>
+        <p>
+            <input type="radio" id="semi-skimmed milk" name="m_base" value="semi-skimmed milk" >
+            <label for="semi-skimmed milk">semi-skimmed milk</label>
+        </p>
+        <p>
+            <input type="radio" id="skimmed milk" name="m_base" value="skimmed milk" checked>
+            <label for="skimmed milk">skimmed milk</label>
+        </p>
+        <p>
+            <input type="radio" id="coconut milk" name="m_base" value="coconut milk">
+            <label for="coconut milk">coconut milk</label>
+        </p>
+        <p>
+            <input type="radio" id="oat milk" name="m_base" value="oat milk" >
+            <label for="oat milk">oat milk</label>
+        </p>
+    </div>
+    
+
+<!-- extra -->
+
+    <div id="m_extra">
+    
+        <legend><u>Extra</u></legend>
+        <p>
+            <label for="malt">malt</label>
+            <input type="checkbox" id="malt" name="m_extra" value="malt">
+        </p>
+        <p>
+            <label for="marshmallows">marshmallows</label>
+            <input type="checkbox" id="marshmallows" name="m_extra" value="marshmallows">
+        </p>
+        <p>
+            <label for="whipped cream">whipped cream</label>
+            <input type="checkbox" id="whipped cream" name="m_extra" value="whipped cream">
+        </p>
+        <p>
+            <label for="flake">flake</label>
+            <input type="checkbox" id="flake" name="m_extra" value="flake">
+        </p>
+    </div>
+
+    <!--ingredients-->
+
+    <fieldset>
+        <div id = "ingredient">
+            <legend>Ingredients</legend>
+        </fieldset>
+        </div>
+    </fieldset>
+
+    <!-- cost per drink -->
+    <fieldset>
+        <legend>Cost per drink</legend>
+        <p id="cost">£3.20</p>
+    </fieldset>
+
+
+    <!-- add to order -->
+    <p><button type="button" id="add">Add to order</button></p>
+
+    <!-- place the order -->
+    <p><button type="button" id="place">Place the order</button></p>
+
+    <!--save my favourite -->
+    <p><button type="button" id="save">Save my favourite</button></p>
+
+    <!--order my favourite -->
+    <p><button type="button" id="fav">Order my favourite</button></p>
+
+</body>
+</html>

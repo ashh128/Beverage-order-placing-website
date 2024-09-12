@@ -1,0 +1,26 @@
+body { 
+    background: rgb(76, 19, 37);
+    color: white
+}
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center
+}
+h3 {
+    color: white
+}
+label {
+    margin-right: 3em;
+    width: 4em;
+    display: inline-block;
+}
+
+#output  {
+    height: 10em;
+    border: rgb(255, 254, 254) solid 1px;
+    width: 30em;
+    
+}
+fieldset {
+    width: 28em;
+}
